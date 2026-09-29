@@ -2,11 +2,14 @@
 name: estate-documents
 description: Populate a basic will, healthcare power of attorney, financial power of attorney, and HIPAA authorization from one intake pass — using your firm's own state-specific templates if attached, or this plugin's generic placeholder templates if not. Flags missing required fields per document type, keeps names and agents consistent across the set, and never invents facts. Attorney verifies state execution formalities and finalizes before the client signs.
 argument-hint: "[optional: which document(s) — 'will', 'healthcare poa', 'financial poa', 'hipaa', or 'all' — the skill asks if you don't specify]"
+last_verified: 2026-09-29
+freshness_window: 12 months
+freshness_category: procedural
 ---
 
 # /estate-documents — Estate Planning Document Assembly
 
-> ⚠️ ASSISTED DRAFT — ATTORNEY REVIEW & STATE-SPECIFIC VERIFICATION REQUIRED
+> ⚠️ AI-ASSISTED DRAFT — ATTORNEY REVIEW & STATE-SPECIFIC VERIFICATION REQUIRED
 > Drafted from the intake answers and templates you provided. Does not verify accuracy, completeness, or your state's execution formalities (witnesses, notarization, self-proving affidavit), and does not determine which documents a client needs. You are the author of record — review, revise, verify state requirements, and finalize it yourself before your client signs anything.
 
 This skill populates up to four documents from one intake pass, using your firm's own template for each where you've attached one, or this plugin's generic placeholder template where you haven't:
@@ -86,7 +89,7 @@ In every case: the drafted body is the document itself — nothing else. Do not 
 Present the compliance header in the chat (not in any draft), then each completed document in its own copy-ready block, then a status note on anything blocked, then the compliance footer and review prompt.
 
 ```
-⚠️ ASSISTED DRAFT — ATTORNEY REVIEW & STATE-SPECIFIC VERIFICATION REQUIRED
+⚠️ AI-ASSISTED DRAFT — ATTORNEY REVIEW & STATE-SPECIFIC VERIFICATION REQUIRED
 Drafted from the intake answers and templates you provided. Verify every fact, confirm your state's execution formalities, and finalize before your client signs anything. Not legal advice.
 ```
 
