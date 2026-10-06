@@ -4,6 +4,8 @@ A Claude Desktop / Cowork plugin that populates a basic will, healthcare power o
 
 **Distributed by [Protomated](https://protomated.com) as a free download.**
 
+**Works with:** Claude Desktop and ChatGPT Desktop.
+
 ---
 
 ## ⚠️ Required: Read This Before You Install
@@ -55,6 +57,10 @@ Before running the skill, attach a workspace folder containing:
 ### Step 3 — Verify
 
 Open a new Claude Desktop chat, attach your folder, and type `/skills`. You should see `/estate-documents` listed. Run `/estate-documents` to start.
+
+### Using this in ChatGPT Desktop
+
+This skill also works in ChatGPT Desktop. Install the plugin the same way (Settings → Apps & Connectors → Plugins → Upload plugin archive), then attach your intake folder directly to the conversation — ChatGPT doesn't have a persistent Filesystem connector, so attach the files each time instead of connecting a folder once.
 
 ---
 
